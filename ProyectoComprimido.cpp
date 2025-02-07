@@ -227,7 +227,7 @@ bool movePlayer(SuperHero& player, vector<vector<char>>& map, int dir) {
 
         if (player.getOn()) {
             if (isSupervillain) {
-                player.takeDamage(20);
+                player.takeDamage(10);
                 map[1][1] = 'T';
                 villanos=villanos2;
             } else {
